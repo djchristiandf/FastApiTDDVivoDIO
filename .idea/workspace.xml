@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0933fc6-5972-4fd9-91e3-fd1baa2cc9f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/store/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/schemas/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/schemas/product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/factories.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/schemas/test_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/db/mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/usecases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/usecases/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/usecases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/usecases/test_product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/schemas/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/schemas/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/schemas/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/schemas/product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;djchristiandf&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/djchristiandf/FastApiTDDVivoDIO.git&quot;,
+    &quot;accountId&quot;: &quot;f0130cdb-6129-43a2-9228-e0171ed7a92b&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -46,7 +61,8 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.mongoOptions&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -71,6 +87,17 @@
       <updated>1717730898848</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

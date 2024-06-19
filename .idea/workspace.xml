@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0933fc6-5972-4fd9-91e3-fd1baa2cc9f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/db/mongo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/usecases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/usecases/product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/usecases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/usecases/test_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/core/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/models/product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/schemas/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/schemas/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/schemas/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/schemas/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/usecases/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/usecases/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/factories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/schemas/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/schemas/test_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/usecases/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/usecases/test_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
       </set>
     </attachedChunks>
   </component>

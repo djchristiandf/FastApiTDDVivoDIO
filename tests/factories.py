@@ -1,3 +1,12 @@
+def lanterna_24h_data():
+    return {
+        "name": "Lanterna 24h",
+        "quantity": 10,
+        "price": "25.50",
+        "status": True,
+    }
+
+
 def product_data():
     return {
         "name": "Iphone 14 Pro Max",

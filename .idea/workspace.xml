@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0933fc6-5972-4fd9-91e3-fd1baa2cc9f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/store/core/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/models/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/models/product.py" afterDir="false" />
+    <list default="true" id="c0933fc6-5972-4fd9-91e3-fd1baa2cc9f7" name="Changes" comment="criado todos os testes e refatorado">
+      <change afterPath="$PROJECT_DIR$/store/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/controllers/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/controllers/test_product_controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/core/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/db/mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/db/mongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/schemas/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/schemas/product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/usecases/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/usecases/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/factories.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/schemas/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/schemas/test_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/usecases/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/usecases/test_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,15 +55,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.mongoOptions&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.main.executor": "Run",
+    "Python.mongo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.mongoOptions"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -88,6 +87,15 @@
       <option name="presentableId" value="Default" />
       <updated>1717730898848</updated>
     </task>
+    <task id="LOCAL-00001" summary="criado todos os testes e refatorado">
+      <option name="closed" value="true" />
+      <created>1718763314784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718763314784</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,5 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="criado todos os testes e refatorado" />
+    <option name="LAST_COMMIT_MESSAGE" value="criado todos os testes e refatorado" />
   </component>
 </project>

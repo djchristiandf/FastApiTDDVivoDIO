@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 
 from store.core.config import settings
+from store.routes import api_router
 
 
 class App(FastAPI):
@@ -15,3 +16,7 @@ class App(FastAPI):
 
 
 app = App()
+app.include_router(api_router)
+
+# Enable Swagger UI
+app.openapi_url = "/docs"  # URL for Swagger UI

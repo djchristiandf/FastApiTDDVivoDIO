@@ -35,5 +35,5 @@ class ProductUpdate(ProductBase):
     status: Optional[bool] = Field(None, description="Product status")
 
 
-class ProductUpdateOut(ProductUpdate):
+class ProductUpdateOut(ProductOut):
     ...
